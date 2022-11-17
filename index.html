@@ -376,7 +376,17 @@
                 </a>
               </li>
             </ul>
-          </section>
+          </section> 
+          <section class="email-sec">
+          <p class="title-soc-footer">Підпишіться на розсилку</p>
+          <span class="input-wrap">
+          <label class="footer-label">
+          <input type="email" name="user-email" class="footer-input" placeholder="E-mail"/>
+          <button class="footer-btn" >Підписатися<svg class="button-icon" width="24" height="24">
+            <use href="./images/symbol-defs.svg#icon-icon-send"></use>
+          </svg></button>
+          </span>
+          </section>         
       </div>               
       </address>
     </div>
@@ -419,10 +429,14 @@
           <textarea class="modal-text" name="user-coment" id="user-coment" placeholder="Введіть текст"></textarea>
           </div>
           <div class="modal-field">
-          <input type="checkbox" name="privacy" id="privacy" class="input-check">
-          <label for="privacy" id="privacy" class="check-test">Погоджуюся з розсилкою та приймаю  Умови договору</label>
+          <input type="checkbox" name="privacy" id="privacy" class="input-check visually-hidden">
+          <label for="privacy" id="privacy" class="check-test" ><span>
+            <svg class="check-icon" width="16" height="15" >
+          <use href="./images/symbol-defs.svg#icon-Vector"></use>
+          </svg> 
+          </span> Погоджуюся з розсилкою та приймаю <a href="Умови договору">Умови договору</a></label>
           </div>
-        <button type="submit">Send</button>
+        <button type="submit" class="hero-btn">Відправити</button>
         </form>
       </div>
     </div>
