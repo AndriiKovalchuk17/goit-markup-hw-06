@@ -956,18 +956,3 @@ body {
 }
 
 
-/* .check-test::before {
-    content: "";
-    width: 16px;
-    height: 15px;
-    border: 2px solid #212121;
-    border-radius: 3px;
-    margin-right: 5px;
-}
-.input-check:checked + .check-test::before {
-    background-color: #2196F3;
-    border-color: transparent;
-    background-image: url(../images/Vector.svg);
-    background-repeat: no-repeat;
-    
-} */
