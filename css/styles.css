@@ -497,6 +497,12 @@ body {
     color: #2196F3;
 }
 
+.footer-link {
+    display: flex;
+    align-items: baseline;
+}
+
+
 .footer-address {
     
 }
@@ -518,6 +524,7 @@ body {
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: var(--second-title-color);
+    display: block;
 }
 
 .footer-mail {
@@ -549,8 +556,10 @@ body {
     margin-bottom: 20px;
 }
 .soc-section {
-    padding-top: 5px;
-    padding-left: 70px;
+    
+    align-items: baseline;
+    margin-top: 5px;
+    margin-left: 70px;
     
 }
 .footer-soc-list {
@@ -588,10 +597,6 @@ body {
 }
 .email-sec {
     margin-left: 93px;
-    display: flex;
-    
-    
-
 }
 
 .button-icon {
@@ -607,6 +612,8 @@ body {
 
 
 .footer-btn {
+    width: 200px;
+    height: 50px;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.87;
@@ -926,6 +933,7 @@ body {
     fill: transparent;
 }
 .link-input {
+    margin-left: 5px;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
